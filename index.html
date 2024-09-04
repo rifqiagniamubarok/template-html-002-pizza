@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Description -->
+    <meta name="description" content="We are a trusted exporter of Coconut Charcoal Briquettes from Indonesia. Get the best quality for your needs. Contact us now!" />
+    <!-- Keywords -->
+    <meta
+      name="keywords"
+      content="Exporter Coconut Charcoal, Coconut Charcoal Briquettes, Briquettes Indonesia, Supplier Coconut Charcoal, Export Charcoal Briquettes, Charcoal Briquettes Indonesia"
+    />
+    <meta name="robots" content="index, follow" />
+    <!-- Logo -->
+    <link rel="icon" href="logo.svg" type="image/svg+xml" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" sizes="32x32" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Flowbite -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <!-- Tailwind setup -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#f9c51b',
+              secondary: '#4b9f36',
+              tertiary: '#272320',
+            },
+          },
+        },
+        darkMode: 'selector',
+      };
+    </script>
+  </head>
+  <!-- jQuery from CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Icon awasome -->
+  <script src="https://kit.fontawesome.com/a464036783.js" crossorigin="anonymous"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Roboto+Slab:wght@100..900&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Roboto Slab', serif;
+    }
+    .text-pacifo {
+      font-family: 'Pacifico', cursive;
+    }
+  </style>
+
+  <body class="bg-tertiary">
+    <nav class="fixed z-40 top-0 inset-x-0 w-full">
+      <!-- Mobile -->
+      <div class="bg-tertiary bg-opacity-80 flex justify-end md:hidden">
+        <button class="text-white p-2" id="toggleMobileNav">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+      <div id="listMobileNav" class="text-white bg-tertiary bg-opacity-80 hidden md:hidden">
+        <ul class="text-lg space-y-1 p-2">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <!-- DESKTOP -->
+      <div class="text-white bg-tertiary bg-opacity-80 flex hidden md:block w-screen">
+        <ul class="text-xl space-y-1 py-4 px-10 flex items-center gap-2 justify-end">
+          <li><a href="#home" class="hidden">Home</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home" class="text-white">
+      <div class="w-screen h-screen bg-tertiary flex flex-col lg:flex-row">
+        <div class="w-full grow h-full flex flex-col justify-center items-center">
+          <p class="font-semibold text-lg md:text-2xl text-primary" data-aos="fade-down" data-aos-duration="1000">THE RESTO OF</p>
+          <p class="font-semibold text-6xl md:text-8xl" data-aos="fade-down" data-aos-duration="1000">PIZZA</p>
+          <p class="font-semibold text-6xl md:text-8xl" data-aos="fade-down" data-aos-duration="1000">SOLUSI</p>
+          <p class="text-base md:text-xl" data-aos="fade-down" data-aos-duration="1000">SINCE 1997</p>
+          <p class="font-semibold text-lg md:text-2xl text-primary text-pacifo mt-8" data-aos="fade-right" data-aos-duration="2000">"The authentic italian pizza"</p>
+        </div>
+        <div class="lg:hidden" data-aos="fade-up" data-aos-duration="2000">
+          <img src="bg-primary.png" class="object-contain" />
+        </div>
+        <div class="hidden lg:inline-block" data-aos="fade-left" data-aos-duration="2000">
+          <img src="bg-primary-lg.png" class="object-contain h-full" />
+        </div>
+      </div>
+    </section>
+    <section id="about" class="lg:container lg:mx-auto">
+      <div id="default-carousel" class="relative w-full" data-carousel="slide" data-aos="fade-up" data-aos-duration="1000">
+        <!-- Carousel wrapper -->
+        <div class="relative h-56 overflow-hidden md:h-96">
+          <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="bg01.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="bg02.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="bg03.jpeg"absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+          </div>
+          <!-- Item 4 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="bg04.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+          </div>
+          <!-- Item 5 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="bg05.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+          </div>
+        </div>
+        <!-- Slider indicators -->
+        <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+        </div>
+        <!-- Slider controls -->
+        <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          >
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
+            </svg>
+            <span class="sr-only">Previous</span>
+          </span>
+        </button>
+        <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          >
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+            </svg>
+            <span class="sr-only">Next</span>
+          </span>
+        </button>
+      </div>
+      <div class="mx-4" data-aos="fade-up" data-aos-duration="1000">
+        <p class="text-center text-primary text-2xl lg:text-3xl mt-4 mb-2">ABOUT</p>
+        <p class="text-center text-white text-3xl lg:text-4xl">PIZZA SOLUSI</p>
+        <div class="lg:flex justify-center">
+          <p class="text-center text-white text-sm lg:text-base mt-4 text-justify lg:w-2/3">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem ad incidunt labore consequuntur mollitia, voluptatem temporibus qui iusto, pariatur corporis veniam
+            eaque ipsam soluta modi reprehenderit ea id culpa delectus aut quidem. Doloremque perferendis, animi tempore expedita unde consequuntur enim illo nobis, velit voluptate
+            odit. Laudantium unde tempore nesciunt enim.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="menu" class="pt-10 lg:container lg:mx-auto" data-aos="fade-up" data-aos-duration="1000">
+      <div>
+        <p class="text-center text-primary text-2xl lg:text-3xl mt-4 mb-2">MENU</p>
+        <div class="grid grid-cols-2 md:grid-cols-3">
+          <div class="w-full aspect-square bg-primary relative overflow-hidden">
+            <div class="absolute z-30 inset-x-0 bottom-0 w-full h-3/4 bg-gradient-to-t from-primary to-transparent flex flex-col justify-end">
+              <p class="text-center text-white text-xl lg:text-2xl pb-10">PIZZA OSAWR</p>
+            </div>
+            <img src="menu01.jpeg" class="object-cover w-full h-full" />
+          </div>
+          <div class="w-full aspect-square bg-primary relative overflow-hidden">
+            <div class="absolute z-30 inset-x-0 bottom-0 w-full h-3/4 bg-gradient-to-t from-primary to-transparent flex flex-col justify-end">
+              <p class="text-center text-white text-xl lg:text-2xl pb-10">PIZZA KHASMIR</p>
+            </div>
+            <img src="menu02.jpeg" class="object-cover w-full h-full" />
+          </div>
+          <div class="w-full aspect-square bg-primary relative overflow-hidden">
+            <div class="absolute z-30 inset-x-0 bottom-0 w-full h-3/4 bg-gradient-to-t from-primary to-transparent flex flex-col justify-end">
+              <p class="text-center text-white text-xl lg:text-2xl pb-10">PRESIDENT PIZZA</p>
+            </div>
+            <img src="menu03.jpeg" class="object-cover w-full h-full" />
+          </div>
+          <div class="w-full aspect-square bg-primary relative overflow-hidden">
+            <div class="absolute z-30 inset-x-0 bottom-0 w-full h-3/4 bg-gradient-to-t from-primary to-transparent flex flex-col justify-end">
+              <p class="text-center text-white text-xl lg:text-2xl pb-10">AMERICA BURGER</p>
+            </div>
+            <img src="menu06.jpeg" class="object-cover w-full h-full" />
+          </div>
+          <div class="w-full aspect-square bg-primary relative overflow-hidden">
+            <div class="absolute z-30 inset-x-0 bottom-0 w-full h-3/4 bg-gradient-to-t from-primary to-transparent flex flex-col justify-end">
+              <p class="text-center text-white text-xl lg:text-2xl pb-10">NOODLE</p>
+            </div>
+            <img src="menu08.jpeg" class="object-cover w-full h-full" />
+          </div>
+          <a class="w-full aspect-square bg-primary relative overflow-hidden flex justify-center items-center cursor-pointer" id="seemoreMenu" href="menu.html">
+            <p class="text-xl text-white">SEE MORE</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="mt-10 lg:container lg:mx-auto lg:px-4" id="contact" data-aos="fade-up" data-aos-duration="1000">
+      <p class="text-center text-primary text-2xl lg:text-3xl mt-4 mb-2">CONTACT</p>
+      <div class="grid grid-cols-1 md:grid-cols-4 p-4">
+        <div class="col-span-1 md:col-span-3 md:p-6">
+          <p class="text-xl text-white">Contact :</p>
+          <p class="text-white text-sm lg:text-base">websolusi@gmail.com</p>
+          <p class="text-white text-sm lg:text-base">+6287627829</p>
+          <p class="text-xl text-white mt-4">Location :</p>
+          <p class="text-white text-sm lg:text-base">JL.Malioboro no.5</p>
+        </div>
+        <div class="aspect-video w-full mt-4 md:col-span-1">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.9740594300733!2d110.36326807498345!3d-7.792571077338485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5742a17e8c33%3A0xf92dc9a55003beb0!2sMalioboro%20Yogyakarta!5e0!3m2!1sen!2sid!4v1714816075025!5m2!1sen!2sid"
+            class="w-full h-full"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+    <footer class="p-4 bg-primary">
+      <p id="copyright" class="text-center text-white"></p>
+    </footer>
+
+    <!-- Flowbite js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <!-- AOS js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+
+      // copyright dinamyc
+      const copyright = document.getElementById('copyright');
+      const currentYear = new Date().getFullYear();
+      copyright.textContent = `Copyright © ${currentYear} websolusi. All rights reserved. developed by Websolusi`;
+
+      //Jquery
+      $(document).ready(function () {
+        $('#toggleMobileNav').click(function () {
+          $('#listMobileNav').toggleClass('hidden');
+        });
+        $('a').click(function () {
+          $('#listMobileNav').addClass('hidden');
+        });
+      });
+    </script>
+  </body>
+</html>
